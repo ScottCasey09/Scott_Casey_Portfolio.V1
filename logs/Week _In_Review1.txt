@@ -1,0 +1,3 @@
+Week in Review
+
+This week of Jan.3-Jan.10 I have been introduced to a version control system called Git and its’ online partner GitHub.com. This has been an informative, but yet very stressful week. I have researched how to use this VCS and have been able to understand the uses for this program. My time management for the week was ahead of scheduled work until I had to try to learn Git, GitHub.com, & GitHub.com Desktop from step one. I made the Project & Portfolio assignment harder then it actually was by my lack of knowledge and use of the terminal. A few clarifications from the instructor on my assignments were needed due to my misunderstanding of the material. 
