@@ -1,4 +1,4 @@
-<DOCTYPE HTML>
+
 <html lang="en">
   <meta charset="utf-8">
   <title>My Portfolio Summery</title>
@@ -23,4 +23,3 @@
     
           </body><footer> </footer></body>
 </html>
-</DOCTYPE>
