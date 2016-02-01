@@ -1,9 +1,10 @@
+<DOCTYPE HTML>
 
 <html lang="en">
   <meta charset="utf-8">
+
   <title>My Portfolio Summery</title>
-  </head>
-  <body>
+  <div>
   <section>
     <h1>Casey Scott</h1>
     <h2>Introduction</h2>
@@ -23,9 +24,13 @@
    <li> Power Point</li>
    <li> HTML</li>
    <li> C#</li>
-   </ul></section><footer>
+   <li>CSS</li>
+   <li>JavaScript</li>
+   <li>Java</li> 
+   </ul></section>
+   <footer>
     <h3>Mission</h3>
-    <p>Build and develop my skils in order to become a successful Mobile Devloper by creating an application that can be enjoyed by people all over the world.</p>
+    <p>Build and develop my skils in order to become a successful Mobile Devloper and create an application that can be enjoyed by people all over the world.</p>
     </footer>
-    </body>
+    </div>
 </html>
