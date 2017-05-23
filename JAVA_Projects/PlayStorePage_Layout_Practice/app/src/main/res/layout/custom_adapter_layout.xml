@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_review"
+        android:text="@string/title_placeholder"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/avatar"
+        android:contentDescription="@string/avatar"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"/>
+
+    <RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/customRatingBar"
+    android:layout_alignTop="@+id/avatar"
+    android:layout_toEndOf="@+id/avatar"
+        android:layout_marginBottom="8dp"
+    android:id="@+id/ratingBar"
+    android:rating="2"
+    />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:text="@string/fake_review1"
+      android:gravity="bottom"
+      android:id="@+id/review_body"
+      android:layout_alignBottom="@+id/avatar"
+      android:layout_toEndOf="@+id/avatar"
+      android:layout_marginStart="15dp"
+      android:layout_margin="8dp"
+      android:maxLength="100"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:maxEms="10"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:text="@string/place_holder_date"
+        android:textSize="14sp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_alignEnd="@+id/ratingBar"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+</LinearLayout>

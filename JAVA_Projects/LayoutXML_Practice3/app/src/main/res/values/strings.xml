@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ScottCasey_CE03</string>
+    <string name="launcher_image">Launcher image</string>
+    <string name="background_color">Background color</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="text_style">Change Text Style</string>
+    <string name="text_color">Text Color</string>
+    <string name="mint">Mint</string>
+    <string name="green">Green</string>
+    <string name="teal">Teal</string>
+    <string name="orange">Orange</string>
+    <string name="blue">Blue</string>
+</resources>

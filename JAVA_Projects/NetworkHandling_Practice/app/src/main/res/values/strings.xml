@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScottCasey_CE12</string>
+    <string name="name">Name:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="gender">Gender:</string>
+    <string name="twitter_id">Twitter ID:</string>
+    <string name="num_committees">Committees:</string>
+    <string name="no_network">No network available</string>
+    <string name="num_roles">Roles:</string>
+    <string name="loading">Please Wait, Loading…</string>
+
+</resources>

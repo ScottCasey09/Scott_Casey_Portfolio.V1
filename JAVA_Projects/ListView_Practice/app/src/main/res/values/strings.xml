@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListView_Practice</string>
+    <string name="list_is_empty">List is Empty</string>
+</resources>

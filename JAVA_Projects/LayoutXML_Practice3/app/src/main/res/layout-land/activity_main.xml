@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.fullsail.caseyscott.scottcasey_ce03.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        style="@style/frameStyle_land"
+        >
+
+        <TextView
+            android:id="@+id/frame_TextView"
+            style="@style/textViewFrameStyle"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/imageViewStyle"
+            android:src="@mipmap/ic_launcher_round"
+            android:contentDescription="@string/launcher_image"/>
+
+    </FrameLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/label_background_color"
+        style="@style/textViewTextTitlesStyle"
+        android:text="@string/background_color"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+
+        <RadioButton
+            android:id="@+id/radioButton1_backgroundColor"
+            style="@style/radioButtonStyle"
+            android:layout_marginStart="20dp"
+            android:text="@string/mint"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2_backgroundColor"
+            style="@style/radioButtonStyle"
+            android:text="@string/green"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3_backgroundColor"
+            style="@style/radioButtonStyle"
+            android:text="@string/blue"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/editText"
+            android:labelFor="@+id/editText"
+            style="@style/editTextStyle"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_textColor"
+        style="@style/textViewTextTitlesStyle"
+        android:text="@string/text_color"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton1_textColor"
+            style="@style/radioButtonStyle"
+            android:layout_marginStart="@dimen/from_start"
+            android:text="@string/green"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton2_textColor"
+            style="@style/radioButtonStyle"
+            android:text="@string/orange"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3_textColor"
+            style="@style/radioButtonStyle"
+            android:text="@string/teal"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_textStyle"
+        style="@style/textViewTextTitlesStyle"
+        android:text="@string/text_style"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        style="@style/checkBoxStyle"/>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ScottCasey_CE06</string>
+    <string name="fullname">FullName</string>
+    <string name="date_default">1/02/2017</string>
+    <string-array name="adapter_array">
+        <item>Array Adapter</item>
+        <item>Simple Adapter</item>
+        <item>Base Adapter</item>
+    </string-array>
+    <string-array name="grid_array">
+        <item>List View</item>
+        <item>Grid View</item>
+    </string-array>
+
+</resources>

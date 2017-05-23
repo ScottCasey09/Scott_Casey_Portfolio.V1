@@ -1,0 +1,7 @@
+#Mon Apr 24 21:41:11 EDT 2017
+base.0=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_55f3658bde809710dc59a1b610fc88bef1d3834d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2206a523739479341edcc75f13458bf8da341d62/classes.dex
+base.1=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2206a523739479341edcc75f13458bf8da341d62
+file.0=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_55f3658bde809710dc59a1b610fc88bef1d3834d/classes.dex

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.fullsail.caseyscott.scottcasey_ce08.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/minutes_00"
+            android:id="@+id/minutesEditText"
+            android:gravity="end"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorAccent"
+            android:layout_weight="0.45"
+            android:maxLength="2"
+            android:inputType="number"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/colon"
+        android:paddingTop="10sp"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/seconds_00"
+        android:id="@+id/secondsEditText"
+        android:gravity="start"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorAccent"
+        android:layout_weight="0.45"
+        android:maxLength="2"
+        android:inputType="number"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:layout_weight="0.5"
+            android:id="@+id/startButton"
+            android:background="@color/startGreen"
+            android:layout_margin="7dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_weight="0.5">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:id="@+id/stopButton"
+            android:background="@color/stopRed"
+            android:layout_margin="7dp"/></LinearLayout>
+    </LinearLayout>
+</LinearLayout>

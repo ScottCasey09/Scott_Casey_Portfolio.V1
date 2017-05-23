@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActionBar</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="phone_hint">Phone</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="save">Save</string>
+</resources>

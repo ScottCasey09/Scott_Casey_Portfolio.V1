@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Casey/Desktop/Fragments/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/Desktop/Fragments/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/Desktop/Fragments/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/Casey/Desktop/Fragments/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

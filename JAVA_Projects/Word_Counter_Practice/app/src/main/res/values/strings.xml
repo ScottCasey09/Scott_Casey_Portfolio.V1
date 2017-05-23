@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScottCasey_CE05(v.3)</string>
+    <string name="enter_a_string">Enter a word to add</string>
+    <string name="add">Add</string>
+    <string name="_0">0</string>
+    <string name="average_word_length">Average word length:</string>
+    <string name="median_word_length">Median word length:</string>
+    <string name="view">View</string>
+</resources>

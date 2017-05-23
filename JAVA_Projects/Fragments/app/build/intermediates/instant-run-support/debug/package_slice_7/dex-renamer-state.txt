@@ -1,0 +1,4 @@
+#Tue May 16 22:07:57 EDT 2017
+base.0=/Users/Casey/Desktop/Fragments/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/Casey/Desktop/Fragments/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

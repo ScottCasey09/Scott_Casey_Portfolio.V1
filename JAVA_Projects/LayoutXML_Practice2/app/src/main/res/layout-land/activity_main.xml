@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/jay_cutlerhdpi"
+        android:contentDescription="@string/image"
+        android:scaleType="centerCrop"
+        android:layout_weight="0.18"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.82"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/introduction"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorLightSteelBlue"
+                android:background="@color/colorMidBlue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textColor="@color/colorOrange"
+                android:text="@string/intro_fill"
+                android:background="@color/colorLightSteelBlue"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/summary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorLightSteelBlue"
+                android:background="@color/colorMidBlue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textColor="@color/colorOrange"
+                android:text="@string/summary_fill"
+                android:background="@color/colorLightSteelBlue"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conclusion"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorLightSteelBlue"
+                android:background="@color/colorMidBlue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textColor="@color/colorOrange"
+                android:text="@string/conclusion_fill"
+                android:background="@color/colorLightSteelBlue"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

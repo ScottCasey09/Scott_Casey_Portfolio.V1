@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mini_Sudoku</string>
+        <string name="check_board">Check Board</string>
+        <string name="Winner_Message">Do you want to play the next board? (Board #</string>
+        <string name="OK">OK</string>
+        <string name="Yes">Yes</string>
+        <string name="Winner">Winner</string>
+        <string name="Column">Column</string>
+        <string name="Has_Errors">has errors.</string>
+        <string name="Rows">Row</string>
+        <string name="Section1_Errors">Section 1 has errors</string>
+        <string name="Section2_Errors">Section 2 has errors</string>
+        <string name="Section3_Errors">Section 3 has errors</string>
+        <string name="Section4_Errors">Section 4 has errors</string>
+        <string name="Missing_Values_Message">One or more fields are missing values.</string>
+        <string name="Problems_Title">Problems</string>
+        <string name="NO_Exit">NO/Exit App</string>
+    </resources>

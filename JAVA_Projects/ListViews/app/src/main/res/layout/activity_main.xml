@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fullsail.caseyscott.scottcasey_ce06.MainActivity"
+    android:weightSum="1"
+    >
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_weight="0.5"
+            android:dropDownSelector="@color/colorAccent"
+            android:entries="@array/grid_array"
+            android:spinnerMode="dropdown"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_weight="0.5"
+            android:dropDownSelector="@color/colorAccent"
+            android:entries="@array/adapter_array"
+            android:spinnerMode="dropdown"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/list_view_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </ListView>
+
+        <GridView
+            android:id="@+id/grid_view_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2">
+
+        </GridView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

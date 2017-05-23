@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="land_square_height">275dp</dimen>
+    <dimen name="land_square_width">275dp</dimen>
+    <dimen name="port_square_height">200dp</dimen>
+    <dimen name="port_square_width">200dp</dimen>
+    <dimen name="from_start">20dp</dimen>
+
+</resources>

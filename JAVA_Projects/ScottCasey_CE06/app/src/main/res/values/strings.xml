@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ScottCasey_CE06</string>
+    <string name="place_holder_pNum">407–882–5555</string>
+    <string name="placeholder_firstname">Firstname</string>
+    <string name="person_icon">person icon</string>
+    <string name="large_contacts_icon_in_detail_view">large contacts icon in detail view</string>
+    <string name="full_name">Full Name</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="phone_hint">Phone #</string>
+    <string name="back">BACK</string>
+    <string name="add_to_contacts">Add to contacts</string>
+    <string name="added_contact">added to contacts</string>
+    <string name="cant_be_blank">This field can not be blank</string>
+    <string name="wrong_num_format">Wrong phone number format</string>
+</resources>

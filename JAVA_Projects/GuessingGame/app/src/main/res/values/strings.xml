@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guessing Game</string>
+
+    <string name="number_sign">#</string>
+    <string name="game_rules">Choose numbers between 0–9 then press submit.</string>
+    <string name="submit">Submit</string>
+</resources>

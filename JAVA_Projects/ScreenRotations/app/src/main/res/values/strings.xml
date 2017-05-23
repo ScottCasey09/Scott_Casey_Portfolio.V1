@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScreenRotations</string>
+    <string name="first_name">First Name: </string>
+    <string name="last_name">Last Name: </string>
+    <string name="empty_name">EMPTY</string>
+    <string name="full_name_landscape">Full Name:</string>
+    <string name="full_name_portrait">FULL NAME</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+</resources>

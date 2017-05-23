@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/.android/build-cache/a6c6d5edf3a082ffd6c42121c251bce1354069df/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b868eaaf048243331f04322d74fb2eb67574f57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/.android/build-cache/a6c6d5edf3a082ffd6c42121c251bce1354069df/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_6dcdfff111adf6a6129453a5b977ceb8b79cdbf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/.android/build-cache/1f3a6e8363ab914b117b0c2bcaeca91a54593b2f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53fec38aeab584208981e4194341fdafaccfeb02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7331589ffc6c37376793f922d34e3535744f5350">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_55f3658bde809710dc59a1b610fc88bef1d3834d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/.android/build-cache/2d36a32878a0e7bad5458aa897b19483b7f4c09e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8898322ef66777534b5edc7f297af30af529cd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2206a523739479341edcc75f13458bf8da341d62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/.android/build-cache/84e817dd52a705eda6244b02fae840a82efe2b92/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2534a552de84d33a930a59bddf0332543b216f1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Casey/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_debd396b3c5017f322aad8aff26c39f2e29c9b4c/classes.dex" />
+    </item>
+
+</items>

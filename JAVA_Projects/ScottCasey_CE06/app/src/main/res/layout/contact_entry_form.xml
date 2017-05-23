@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/EntryFormTheme"
+    android:paddingTop="50dp">
+
+    <LinearLayout
+        style="@style/basic_linear_layout_style">
+
+        <EditText
+            android:id="@+id/firstName_editText"
+            style="@style/editText_style"
+            android:hint="@string/first_name_hint"
+            android:inputType="textPersonName" />
+</LinearLayout>
+
+    <LinearLayout
+        style="@style/basic_linear_layout_style">
+        <EditText
+            android:id="@+id/lastName_editText"
+            style="@style/editText_style"
+            android:hint="@string/last_name_hint"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/basic_linear_layout_style">
+
+        <EditText
+            android:id="@+id/phone_number_editText"
+            style="@style/editText_style"
+            android:hint="@string/phone_hint"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:digits="0123456789-"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_contacts"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+</LinearLayout>

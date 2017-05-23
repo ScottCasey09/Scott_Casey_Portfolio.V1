@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fullsail.caseyscott.mini_sudoku.MainActivity">
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:id="@+id/checkBoardbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp"
+        android:text="@string/check_board"
+        android:textScaleX="2.5"
+        android:textSize="13sp"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1">
+
+        <EditText
+            android:id="@+id/row0column0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="true"
+            android:inputType="number"
+            android:digits="1,2,3,4"
+            android:maxLength="1"/>
+
+        <EditText
+            android:id="@+id/row0column1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row0column2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row0column3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        >
+
+        <EditText
+            android:id="@+id/row1column0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+
+        <EditText
+            android:id="@+id/row1column1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row1column2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row1column3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1">
+
+        <EditText
+            android:id="@+id/row2column0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/row2column1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row2column2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row2column3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1">
+
+        <EditText
+            android:id="@+id/row3column0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+
+        <EditText
+            android:id="@+id/row3column1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row3column2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/row3column3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:maxLength="1"
+            android:digits="1,2,3,4"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

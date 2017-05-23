@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="basic">Basic</string>
+    <string name="list">List</string>
+    <string name="there_is_data_in_our_list_add_some">There is data in our list. Add some!</string>
+    <string name="frag">fragment</string>
+    <string name="there_is_no_data_in_our_list_add_some">There is no data in our list. Add some.</string>
+
+    <array name="desserts">
+        <item name="cupcake">Cupcake</item>
+        <item name="donut">Donut</item>
+        <item name="eclair">Eclair</item>
+        <item name="froyo">Froyo</item>
+        <item name="gingerbread">Gingerbread</item>
+    </array>
+</resources>

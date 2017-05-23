@@ -1,0 +1,19 @@
+#Mon Apr 24 19:14:38 EDT 2017
+renamed.5=classes4.dex
+renamed.4=classes2.dex
+renamed.3=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes6.dex
+renamed.0=classes5.dex
+base.5=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8898322ef66777534b5edc7f297af30af529cd6
+base.4=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53fec38aeab584208981e4194341fdafaccfeb02
+base.3=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2534a552de84d33a930a59bddf0332543b216f1b
+base.2=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b868eaaf048243331f04322d74fb2eb67574f57
+base.1=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_debd396b3c5017f322aad8aff26c39f2e29c9b4c
+base.0=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_6dcdfff111adf6a6129453a5b977ceb8b79cdbf1
+file.5=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8898322ef66777534b5edc7f297af30af529cd6/classes.dex
+file.4=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53fec38aeab584208981e4194341fdafaccfeb02/classes.dex
+file.3=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2534a552de84d33a930a59bddf0332543b216f1b/classes.dex
+file.2=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b868eaaf048243331f04322d74fb2eb67574f57/classes.dex
+file.1=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_debd396b3c5017f322aad8aff26c39f2e29c9b4c/classes.dex
+file.0=/Users/Casey/Desktop/ScreenRotations/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_6dcdfff111adf6a6129453a5b977ceb8b79cdbf1/classes.dex

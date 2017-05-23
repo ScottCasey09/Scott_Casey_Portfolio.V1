@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ScottCasey_CE05</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_student">Add Student</string>
+    <string name="student">Student</string>
+    <string name="instructor">Instructor</string>
+    <string name="administrator">Administrator</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="course">Course</string>
+    <string name="program">Program</string>
+    <string name="add_a_student">Add a student</string>
+    <string name="add_a_instructor">Add an instructor</string>
+    <string name="add_a_admin">Add an administrator</string>
+    <string name="add_administrator">add administrator</string>
+    <string name="add_instructor">add instructor</string>
+    <string name="empty_view">empty view</string>
+    <string name="added_to_list">added to list</string>
+    <string name="must_enter_all_fields">Must enter in all fields</string>
+    <string name="enter_first_name">Enter a first name</string>
+    <string name="enter_last_name">Enter a last name</string>
+    <string name="enter_all_fields">Enter the corresponding optional field</string>
+    <string name="blank" />
+    <string name="must_implement_interface">Containing context does not implement the SubmitInformationListener interface</string>
+    <string name="please_rotate_the_device_to_landscape_mode">Please rotate the device to landscape mode.</string>
+    <string name="placeholder">placeHolder</string>
+    <string name="divider">|</string>
+    <string-array name="drop_list_array">
+        <item>@string/student</item>
+        <item>@string/instructor</item>
+        <item>@string/administrator</item>
+    </string-array>
+</resources>

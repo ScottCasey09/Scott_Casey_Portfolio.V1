@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+	android:layout_width="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+		android:id="@+id/members_list_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         >
+        
+        <ListView android:id="@+id/members_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/member_details_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        
+        <LinearLayout
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:text="@string/name" />
+	        
+	        <TextView android:id="@+id/text_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+        
+        
+        <LinearLayout
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+	        <TextView
+				android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:text="@string/birthday" />
+	        
+	        <TextView android:id="@+id/text_birthday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    </LinearLayout>
+        
+        
+        <LinearLayout
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:text="@string/gender" />
+	        
+	        <TextView android:id="@+id/text_gender"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    </LinearLayout>
+                
+        
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:text="@string/twitter_id" />
+	        
+	        <TextView android:id="@+id/text_twitter_id"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+	        
+        
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:text="@string/num_committees" />
+	        
+	        <TextView android:id="@+id/text_num_committees"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+        </LinearLayout>
+        
+        
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:text="@string/num_roles" />
+	        
+	        <TextView android:id="@+id/text_num_roles"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

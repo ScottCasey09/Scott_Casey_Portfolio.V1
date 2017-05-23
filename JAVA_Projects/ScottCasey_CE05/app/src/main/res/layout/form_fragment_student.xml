@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/student_frag">
+
+
+    <TextView
+        style="@style/title_textView_Bold"
+        android:id="@+id/formTitle"
+        android:text="@string/add_a_student"
+        />
+
+    <EditText
+        style="@style/editText_general"
+        android:id="@+id/editText_line1"
+        android:hint="@string/first_name"/>
+
+    <EditText
+        style="@style/editText_general"
+        android:id="@+id/editText_line2"
+        android:hint="@string/last_name"/>
+
+    <EditText
+        style="@style/editText_numbersOnly"
+        android:id="@+id/editText_line3"
+        android:hint="@string/student_id"/>
+
+    <Button
+        style="@style/button_add_style"
+        android:text="@string/add_student"
+        android:id="@+id/addButton"/>
+
+</LinearLayout>

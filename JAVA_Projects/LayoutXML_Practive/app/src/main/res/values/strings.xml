@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ScottCasey_CE01</string>
+    <string name="image">image</string>
+    <string name="my_name">Casey Scott</string>
+    <string name="birthday">Birthday:</string>
+    <string name="birthday_fill">August 24, 1987</string>
+    <string name="about">About Me:</string>
+    <string name="about_fill">Currently working in the rare coin industry, I\'m a 29 year old male that has a passion for building mobile applications. Two years ago I set out to pursue my dream of becoming a Mobile Developer and provide a fulfilling life for me and my amazing 8 year old son.</string>
+    <string name="hobbies">Hobbies:</string>
+    <string name="hobbies_fill">Fitness, Football, Baseball, Golf, Bowling, Swimming, Running, Gaming</string>
+    <string name="hometown_title">Hometown:</string>
+    <string name="hometown_fill">Saint Cloud</string>
+    <string name="relative_layout">Change To Relative Layout</string>
+    <string name="linear_layout">Change To Linear Layout</string>
+</resources>

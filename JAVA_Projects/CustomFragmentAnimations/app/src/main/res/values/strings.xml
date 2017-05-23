@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomFragmentAnimations</string>
+    <string name="open_fragment">open fragment</string>
+    <string name="welcome_to_a_fragment">Welcome to a fragment</string>
+</resources>

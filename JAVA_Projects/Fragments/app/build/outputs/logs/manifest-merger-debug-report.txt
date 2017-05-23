@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/f7287afafb5ca5d14b892caa5f5ad3b2b6a9f296/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/4091a3244647c2df0a83a430b2b49cfdc4033125/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/4223d562d76b55ee6df532c8e0e762bfe6417406/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/7be2306bd991df4199be6417eef880b7e28cb84f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/7ae792ce45a0a1130767f4e138831b24914cdd1d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/8b081c4c041444476878fb2199c0391f2f1fcc10/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/e3de8eac9506f4930895baa4a5d56359033b52f7/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/96f1895a8b8a142af38566528dfba017b8b23e9f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Casey/.android/build-cache/81412ca68fcc1f78046e2240d002157029162cac/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.fullsail.demo.fragments.MainActivity
+ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/f7287afafb5ca5d14b892caa5f5ad3b2b6a9f296/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/4091a3244647c2df0a83a430b2b49cfdc4033125/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/4223d562d76b55ee6df532c8e0e762bfe6417406/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/7be2306bd991df4199be6417eef880b7e28cb84f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/7ae792ce45a0a1130767f4e138831b24914cdd1d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/8b081c4c041444476878fb2199c0391f2f1fcc10/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/e3de8eac9506f4930895baa4a5d56359033b52f7/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/96f1895a8b8a142af38566528dfba017b8b23e9f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Casey/.android/build-cache/81412ca68fcc1f78046e2240d002157029162cac/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Casey/Desktop/Fragments/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/f7287afafb5ca5d14b892caa5f5ad3b2b6a9f296/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/4091a3244647c2df0a83a430b2b49cfdc4033125/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/4223d562d76b55ee6df532c8e0e762bfe6417406/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/7be2306bd991df4199be6417eef880b7e28cb84f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/7ae792ce45a0a1130767f4e138831b24914cdd1d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/8b081c4c041444476878fb2199c0391f2f1fcc10/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/e3de8eac9506f4930895baa4a5d56359033b52f7/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/96f1895a8b8a142af38566528dfba017b8b23e9f/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/f306bb76181596b1aa1d7ba18bd3d808e07c7490/output/AndroidManifest.xml:26:9-47
