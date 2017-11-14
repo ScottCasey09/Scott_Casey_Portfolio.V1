@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_marginTop="50dp"
+        style="@style/Edit_text_style"
+        android:id="@+id/firstName"
+        android:hint="@string/first_name"/>
+    <EditText
+        style="@style/Edit_text_style"
+        android:id="@+id/lastname"
+        android:hint="@string/last_name"/>
+    <EditText
+        style="@style/Edit_text_style_number"
+        android:hint="@string/age"
+        android:id="@+id/age"/>
+
+</LinearLayout>

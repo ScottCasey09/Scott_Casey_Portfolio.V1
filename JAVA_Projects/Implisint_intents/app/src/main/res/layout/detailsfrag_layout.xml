@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        style="@style/linear_style"
+        android:id="@+id/linear1">
+
+        <TextView
+            style="@style/textViews_details"
+            android:text="@string/f_name_label"
+            android:id="@+id/firstNameLabel_details"/>
+
+        <TextView
+            style="@style/details_focused"
+            android:id="@+id/firstName_details"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_style"
+        android:id="@+id/linear2">
+
+        <TextView
+            style="@style/textViews_details"
+            android:text="@string/l_name_label"
+            android:id="@+id/lastNameLabel_details"/>
+
+        <TextView
+            style="@style/details_focused"
+            android:id="@+id/lastName_details"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_style"
+        android:id="@+id/linear3">
+
+        <TextView
+            style="@style/textViews_age_details"
+            android:text="@string/age_label"
+            android:id="@+id/ageLabel_details"
+            />
+
+        <TextView
+            style="@style/details_focused"
+            android:id="@+id/age_details"/>
+
+    </LinearLayout>
+</LinearLayout>

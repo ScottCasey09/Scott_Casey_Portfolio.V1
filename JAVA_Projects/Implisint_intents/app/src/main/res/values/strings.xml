@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScottCasey_CE07</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="age">Age</string>
+    <string name="save">Save</string>
+    <string name="f_name_label">First name:</string>
+    <string name="l_name_label">Last name:</string>
+    <string name="age_label">Age:</string>
+    <string name="delete">Delete</string>
+</resources>
