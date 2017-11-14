@@ -9,13 +9,7 @@
   <section>
     <h1>Casey Scott</h1>
     <h2>Introduction</h2>
-    <p>My name is Casey and I am 28 years old. I have been working for what feels like all my life, but really it has only been since I was sixteen (12+ yrs.). 
-    In this time I have held leadership positions running assembly line crews and operating a very small painting company where I managed entire projects from estimation to completion.
-    But starting a year ago I have chose to become an aspiring mobile application developer with a dream; to one day build applications that can be used and enjoyed by people around the globe. 
-    I am currently attending Full Sail University's Mobile Develop Bachelors Degree program. One year into my mobile development program I have created small web pages using HTML and beginner programs in the C# language. 
-    At this point it's early in my career and I have a lot more work to do, but I have shown some promising progress so far. 
-    When I'm not studying I love to be active by running, lifting weights, and playing golf.
-    I enjoy shooter and strategy video games.</p></section>
+    <p>I am a Mobile Development graduate from Full Sail University where I studied mobile application programming. I have experience in several languages like Java, Swift, C# and a few others. This is a repo of a collection of all the work I have done during my degree program. Many of these files contain small projects that focus on one core functionality.You may notice that the C# files are very basic and resemble the work of a beginner programmer. C# is where I started learning the basics of object oriented programming. As I progressed I made my way into Swift where I created many projects in the Xcode IDE. Finally my latest work is in the form of Java and has been developed in the Android Studio IDE.Currently at the time of this update I am creating my first Android application that will hopefully make its way to the Google Play store. This application is called ONTIME, it is a business management solution that is focused on time clocking and scheduling. Updates on this will soon be published.</p></section>
     <section>
     <h3>Skills</h3>
     <ul><li>Leadership</li>
