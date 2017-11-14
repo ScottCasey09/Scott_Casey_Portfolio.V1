@@ -3,7 +3,8 @@
 <html lang="en">
   <meta charset="utf-8">
 
-  <title>My Portfolio Summery</title>
+  <h3>My Portfolio Summery</h3>
+<a href=“www.linkedin.com/in/caseymd”>My LinkedIn profile</a>
   <div>
   <section>
     <h1>Casey Scott</h1>
