@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/name_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/price_cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:background="#000011"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/editButton"
+        android:layout_weight="0.1"
+        android:src="@drawable/ic_action_edit"
+        android:background="#00FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/edit_button" />
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/deleteButton"
+        android:layout_weight="0.1"
+        android:src="@drawable/ic_action_delete"
+        android:background="#00FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/delete_item_button" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/itemDetailsView"
+        android:background="@color/background_light2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/closeButton"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+                android:background="@color/background_light"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"
+                android:textSize="17sp"
+                android:textAlignment="textEnd"
+                android:layout_marginEnd="35dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/priority_level_TextView"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/locations_layout">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/locations"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="35dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/extraInfo_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/extra_information"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:layout_marginEnd="35dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

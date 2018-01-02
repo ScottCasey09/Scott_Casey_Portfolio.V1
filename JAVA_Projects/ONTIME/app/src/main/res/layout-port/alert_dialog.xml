@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warning"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/are_you_sure_you_want_to_delete_this_job"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_job_name_space"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            style="@style/ButtonBorder.Accent"
+            android:text="@string/cancel"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="0.5"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/cancel"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:theme="@style/AppTheme.Button"
+            android:text="@string/yes"
+            android:textColor="@color/colorPinkishWhite"
+            android:layout_weight="0.5"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:id="@+id/yes"/>
+    </LinearLayout>
+</LinearLayout>

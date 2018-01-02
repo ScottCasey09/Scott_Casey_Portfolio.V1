@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/placeholder"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/name_clocking_dialog"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="84dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            >
+
+            <CheckBox
+                android:id="@+id/in_checkBox"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:button="@drawable/check_box_selector"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/in"
+                android:gravity="center_vertical"
+                android:layout_gravity="end"
+                android:textSize="15sp"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="84dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/out_checkBox"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:button="@drawable/check_box_selector"
+                android:textSize="20sp"
+               android:textAlignment="textEnd"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/_out"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="84dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            >
+            <CheckBox
+                android:id="@+id/breakStart_checkBox"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:button="@drawable/check_box_selector"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/break_start"
+                android:gravity="center_vertical"
+                android:layout_gravity="end"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="84dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/breakEnd_checkBox"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:button="@drawable/check_box_selector"
+                android:textSize="20sp"
+                android:textAlignment="textEnd"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/break_end"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="0.5"
+            style="@style/ButtonBorder.Accent"
+            android:text="@string/cancel"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:id="@+id/cancel_clocking"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="10dp"
+            android:theme="@style/AppTheme.Button"
+            android:textColor="@color/colorPinkishWhite"
+            android:text="@string/clock"
+            android:textSize="20sp"
+            android:id="@+id/clock_clocking"/>
+    </LinearLayout>
+
+</LinearLayout>

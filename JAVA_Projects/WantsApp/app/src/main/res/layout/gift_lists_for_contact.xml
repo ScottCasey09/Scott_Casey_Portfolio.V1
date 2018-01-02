@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/background_light"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout_giftList"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/showing"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/sort_spinner"
+            android:layout_weight=".7"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/gifts_for_contact_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout_giftList"
+        >
+    </ListView>
+
+    <TextView
+        android:id="@+id/gifts_for_contact_EmptylistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_wants_in_list"
+        android:layout_below="@+id/linearLayout_giftList"
+        android:background="@color/background_light"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "578776370759",
+    "firebase_url": "https://wantsapp-b2566.firebaseio.com",
+    "project_id": "wantsapp-b2566",
+    "storage_bucket": "wantsapp-b2566.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578776370759:android:95f7ba179b466491",
+        "android_client_info": {
+          "package_name": "com.fullsail.caseyscott.wantsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578776370759-lfkkh5vj1l4r8s0ojhra6gkuong9t5rv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fullsail.caseyscott.wantsapp",
+            "certificate_hash": "f20a73db8be4df09f671162528fdfb3762608bc1"
+          }
+        },
+        {
+          "client_id": "578776370759-0adc5cjljpo5csinoj0vr8ajm6vhmqqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr3mR1QoyAHIFwuGHDCbVcNOmp3YDC6Fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578776370759-0adc5cjljpo5csinoj0vr8ajm6vhmqqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

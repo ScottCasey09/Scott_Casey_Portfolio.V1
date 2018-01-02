@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:focusable="false">
+
+    <ImageView
+        android:src="@mipmap/default_icon"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:id="@+id/user_icon_IV"
+        android:contentDescription="@string/users_profile_pic"
+        android:layout_margin="20dp"
+        android:layout_weight="0.2"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/username_searchCell"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:text="@string/placeholder"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="0.5"
+        android:focusable="false"/>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight=".001"
+        android:background="#010191"
+        android:focusable="false"
+        />
+
+    <ImageButton
+        android:id="@+id/message_button"
+        android:src="@drawable/ic_action_message"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight=".2"
+        android:background="@color/background_light"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+
+</LinearLayout>

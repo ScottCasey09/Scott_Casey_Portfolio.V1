@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_list"
+        android:textSize="18sp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:id="@+id/spinner_entry_screen"
+        >
+    </Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newList_LinearLayout"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            style="@style/login_editText"
+            android:id="@+id/listName"
+            android:hint="@string/enter_a_new_list_name"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <EditText
+        style="@style/login_editText"
+        android:id="@+id/itemName"
+        android:hint="@string/item_title"/>
+    <EditText
+        style="@style/login_editText"
+        android:id="@+id/itemLocations"
+        android:hint="@string/locations"/>
+    <EditText
+        style="@style/login_editText"
+        android:id="@+id/itemDescription"
+        android:hint="@string/desc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_$"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <EditText
+            style="@style/price_editText_style"
+            android:id="@+id/itemPrice"
+            android:hint="@string/price"
+            android:inputType="numberDecimal"
+            android:digits="0123456789."
+            android:maxLength="10"
+            />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/radio_group_priority"
+            android:id="@+id/radio_1"
+            app:buttonTint="@color/radio_blue"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/radio_group_priority"
+            android:id="@+id/radio_2"
+            app:buttonTint="@color/radio_green"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/radio_group_priority"
+            android:id="@+id/radio_3"
+            app:buttonTint="@color/radio_yellow"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/radio_group_priority"
+            android:id="@+id/radio_4"
+            app:buttonTint="@color/radio_orange"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            style="@style/radio_group_priority"
+            android:id="@+id/radio_5"
+            app:buttonTint="@color/radio_red"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textView_labels_priority"
+            android:text="@string/kinda_want"
+            android:layout_weight="0.3"
+            android:textColor="@color/radio_blue"/>
+        <TextView
+            style="@style/textView_labels_priority"
+            android:text="@string/want"
+            android:layout_weight="0.3"
+            android:textColor="@color/radio_yellow"
+            android:textStyle="bold"/>
+        <TextView
+            style="@style/textView_labels_priority"
+            android:text="@string/really_want"
+            android:layout_weight="0.3"
+            android:textColor="@color/radio_red"
+            />
+    </LinearLayout>
+
+    <Button
+        style="@style/login_button"
+        android:id="@+id/add_button"
+        android:text="@string/i_want_it"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonshape_signup"
+        />
+</LinearLayout>

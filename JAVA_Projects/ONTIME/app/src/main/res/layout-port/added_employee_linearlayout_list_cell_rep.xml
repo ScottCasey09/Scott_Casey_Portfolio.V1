@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+
+    <TextView
+        style="@style/employee_name_listStyle"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"
+        android:text="@string/placeholder"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:id="@+id/employeeName_fakeList"
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        style="@style/AppTheme.ButtonEmpty"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="@string/deleted_button_for_job_insertion"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:id="@+id/delete_Employee_Button_fakeList"
+        />
+
+</LinearLayout>

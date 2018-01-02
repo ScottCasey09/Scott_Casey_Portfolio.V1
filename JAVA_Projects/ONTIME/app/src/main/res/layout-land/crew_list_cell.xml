@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/crewMember_name_textView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.35"
+        android:text="@string/placeholder"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/clock_button_crew_cell"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="0.1"
+        android:src="@mipmap/clock_button"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:theme="@style/AppTheme.ButtonEmpty"
+        android:contentDescription="@string/clocking_employees_button"
+        />
+    <TextView
+        android:id="@+id/clockin_time_textView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:text="@string/sample_in_time_8am"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/clockout_time_textView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:text="@string/sample_out_time_5pm"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginEnd="2dp"
+        />
+</LinearLayout>

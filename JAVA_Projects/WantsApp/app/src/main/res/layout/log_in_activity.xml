@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_light"
+    tools:context="com.fullsail.caseyscott.wantsapp.activities.LogInActivity">
+
+    <EditText
+        style="@style/login_editText"
+        android:hint="@string/email_address"
+        android:id="@+id/username_editText"/>
+
+    <EditText
+        style="@style/login_editText"
+        android:hint="@string/password"
+        android:id="@+id/password_editText"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:minLines="1"
+        />
+
+    <Button
+        style="@style/login_button"
+        android:id="@+id/signin_button"
+        android:text="@string/sign_in"
+        android:textAlignment="center"
+        android:background="@drawable/buttonshape_top"
+        />
+    <Button
+        style="@style/login_button"
+        android:id="@+id/signup_button"
+        android:text="@string/sign_up"
+        android:textAlignment="center"
+        android:background="@drawable/buttonshape_bottom"/>
+    <Button
+        style="@style/login_button"
+        android:id="@+id/skip_button"
+        android:text="@string/skip"
+        android:textAlignment="center"
+        android:background="@drawable/buttonshape_bottom"/>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/spinner_LinearLayout"
+    >
+
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_selector_spinner"
+        android:layout_margin="15dp"
+        android:layout_weight=".6">
+    </Spinner>
+
+        <Switch
+            android:id="@+id/privacy_switch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_margin="15dp"
+            android:paddingEnd="15dp"
+            android:paddingStart="10dp"
+            android:text="@string/_public"
+            android:textAlignment="center"
+            android:maxLines="1"
+            android:checked="true"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinner_LinearLayout"
+        android:paddingBottom="80dp"
+        android:layout_marginBottom="8dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/gifts_for_contact_EmptylistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_wants_in_list"
+        android:layout_below="@+id/spinner_LinearLayout"
+        android:layout_above="@+id/tabBar"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:visibility="gone"
+        />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="60dp"
+        android:layout_above="@+id/tabBar"
+        android:clickable="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/add_item_button"
+        android:src="@mipmap/add_button"
+        android:background="#00FFFFFF"
+         />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tabBar">
+            <Button
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:selectAllOnFocus="true"
+                android:text="@string/my_wants"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/barButton1"
+                android:layout_weight="0.3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/buttonshape_signup"/>
+            <Button
+                android:text="@string/contacts"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/barButton2"
+                android:layout_weight="0.3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/buttonshape_signup"/>
+            <Button
+                android:text="@string/search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/barButton3"
+                android:layout_weight="0.3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/buttonshape_signup"/>
+        </LinearLayout>
+
+</RelativeLayout>

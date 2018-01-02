@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/logo_entry"
+                        android:layout_width="106dp"
+                        android:layout_height="106dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:contentDescription="@string/logo_image"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/ic_launcher"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/logo_add_Button"
+                        android:layout_width="206dp"
+                        android:layout_height="206dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:background="@color/colorPinkishWhite"
+                        android:contentDescription="@string/logo_image"
+                        android:text="@string/add_logo" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/company_name_editText_create"
+                            style="@style/edit_text_calendar"
+                            android:layout_marginTop="10dp"
+                            android:hint="@string/company_name"
+                            android:soundEffectsEnabled="true"
+                            app:met_floatingLabel="normal"
+                            app:met_underlineColor="@color/colorPrimaryDark" />
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/first_name_editText_create"
+                            style="@style/edit_text_calendar"
+                            android:hint="@string/first_name"
+                            android:soundEffectsEnabled="true"
+                            app:met_floatingLabel="normal"
+                            app:met_underlineColor="@color/colorPrimaryDark" />
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/last_name_editText_create"
+                            style="@style/edit_text_calendar"
+                            android:hint="@string/last_name"
+                            android:soundEffectsEnabled="true"
+                            app:met_floatingLabel="normal"
+                            app:met_underlineColor="@color/colorPrimaryDark" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/email_create"
+                        style="@style/half_screen_style"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="10dp"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:soundEffectsEnabled="true"
+                        app:met_floatingLabel="normal"
+                        app:met_underlineColor="@color/colorPrimaryDark" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/email_confirm_create"
+                        style="@style/half_screen_style"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="5dp"
+                        android:hint="@string/confirm_email"
+                        android:inputType="textEmailAddress"
+                        android:soundEffectsEnabled="true"
+                        app:met_floatingLabel="normal"
+                        app:met_underlineColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/password_create"
+                        style="@style/half_screen_style"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="10dp"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:soundEffectsEnabled="true"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="normal"
+                        app:met_maxCharacters="12"
+                        app:met_minCharacters="8"
+                        app:met_underlineColor="@color/colorPrimaryDark" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/password_confirm_create"
+                        style="@style/half_screen_style"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="5dp"
+                        android:hint="@string/confirm_password"
+                        android:inputType="textPassword"
+                        android:soundEffectsEnabled="true"
+                        app:met_autoValidate="true"
+                        app:met_floatingLabel="normal"
+                        app:met_maxCharacters="12"
+                        app:met_minCharacters="8"
+                        app:met_underlineColor="@color/colorPrimaryDark" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/added_employees_linearLayout_listView_rep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/customborder"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/customborder"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="@string/add_employee"
+                                android:textSize="20sp" />
+
+                            <CheckBox
+                                android:id="@+id/is_manager_checkBox"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.4"
+                                android:text="@string/manager"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/emp_firstname_create"
+                                style="@style/half_screen_style"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginStart="2dp"
+                                android:hint="@string/first_name"
+                                android:soundEffectsEnabled="true"
+                                app:met_floatingLabel="normal"
+                                app:met_underlineColor="@color/colorPrimaryDark" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/emp_dob_create"
+                                style="@style/half_screen_style"
+                                android:layout_marginEnd="0dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.4"
+                                android:hint="@string/d_o_b"
+                                android:soundEffectsEnabled="true"
+                                app:met_floatingLabel="normal"
+                                app:met_underlineColor="@color/colorPrimaryDark" />
+
+                            <ImageButton
+                                android:id="@+id/datePicker"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_weight="0.15"
+                                android:contentDescription="@string/calendar_button"
+                                android:scaleType="fitCenter"
+                                android:src="@mipmap/calendar_icon"
+                                android:theme="@style/AppTheme.ButtonEmpty" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp">
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/emp_lastname_create"
+                                style="@style/half_screen_style"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginStart="2dp"
+                                android:hint="@string/last_name"
+                                android:soundEffectsEnabled="true"
+                                app:met_floatingLabel="normal"
+                                app:met_underlineColor="@color/colorPrimaryDark" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/emp_Email_create"
+                                style="@style/half_screen_style"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:hint="@string/employee_Email"
+                                android:inputType="textEmailAddress"
+                                android:soundEffectsEnabled="true"
+                                app:met_floatingLabel="normal"
+                                app:met_underlineColor="@color/colorPrimaryDark" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp">
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/emp_password_create"
+                                style="@style/half_screen_style"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginStart="2dp"
+                                android:hint="@string/password"
+                                android:soundEffectsEnabled="true"
+                                app:met_autoValidate="true"
+                                app:met_floatingLabel="normal"
+                                app:met_maxCharacters="12"
+                                app:met_minCharacters="8"
+                                app:met_underlineColor="@color/colorPrimaryDark" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/emp_passwordConfirm_create"
+                                style="@style/half_screen_style"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:hint="@string/confirm_password"
+                                android:soundEffectsEnabled="true"
+                                app:met_autoValidate="true"
+                                app:met_floatingLabel="normal"
+                                app:met_maxCharacters="12"
+                                app:met_minCharacters="8"
+                                app:met_underlineColor="@color/colorPrimaryDark" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/add_emp_button_create"
+                            android:layout_width="match_parent"
+                            android:layout_height="54dp"
+                            android:soundEffectsEnabled="true"
+                            android:text="@string/add"
+                            android:textColor="@color/colorPinkishWhite"
+                            android:textSize="20sp"
+                            android:theme="@style/AppTheme.Button" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+</LinearLayout>

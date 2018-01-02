@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fullsail.caseyscott.wantsapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity android:name=".activities.LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.fullsail.caseyscott.wantsapp.TO_LOG_IN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.SignUpActivity">
+            <intent-filter>
+                <action android:name="com.fullsail.caseyscott_wantsapp_TO_SIGN_UP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.AddItemActivity">
+            <intent-filter>
+                <action android:name="com.fullsail.caseyscott.wantsapp.TO_ITEM_ENTRY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.UsersListActivity">
+            <intent-filter>
+                <action android:name="com.fullsail.caseyscott.wantsapp.TO_USERS_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.SearchListActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.fullsail.caseyscott.wantsapp.TO_SEARCH_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ContactsListActivity">
+            <intent-filter>
+                <action android:name="com.fullsail.caseyscott.wantsapp.TO_CONTACTS_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.GiftsListsForContact">
+            <intent-filter >
+                <action android:name="com.fullsail.caseyscott.wantsapp.TO_CONTACTS_ITEMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MessageActivity">
+            <intent-filter>
+                <action android:name="com.fullsail.caseyscott_wantsapp_TO_MESSAGING_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".GetMessagesService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name= "com.fullsail.caseyscott_wantsapp_START_SERVICE"/>
+            </intent-filter>
+
+        </service>
+    </application>
+
+</manifest>

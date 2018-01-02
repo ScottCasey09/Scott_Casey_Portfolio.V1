@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_array">
+        <item name="Priority">Priority(High)</item>
+        <item name="Priority">Priority(Low)</item>
+        <item name="Title">Title(Z-A)</item>
+        <item name="Title">Title(A-Z)</item>
+        <item name="Price">Price(High)</item>
+        <item name="Price">Price(low)</item>
+    </array>
+</resources>

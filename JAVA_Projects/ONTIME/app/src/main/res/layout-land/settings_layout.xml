@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="-20dp"
+        android:layout_gravity="end"
+        android:theme="@style/AppTheme.Button"
+        android:textColor="@color/colorPinkishWhite"
+        android:text="@string/save"
+        android:id="@+id/saveButton"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="@string/admin_email_address"
+            style="@style/settings_textView_style"/>
+        <EditText
+            android:id="@+id/settings_email"
+            android:inputType="textEmailAddress"
+            style="@style/settings_textView_style"
+            android:hint="@string/email"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="@string/_admin_password"
+            style="@style/settings_textView_style"/>
+        <EditText
+            android:id="@+id/settings_password"
+            android:inputType="textVisiblePassword"
+            style="@style/settings_textView_style"
+            android:hint="@string/password"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <TextView
+        android:text="@string/admin_first_name"
+        style="@style/settings_textView_style"/>
+    <EditText
+        android:id="@+id/settings_firstname"
+        style="@style/settings_textView_style"
+        android:hint="@string/last_name"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="@string/_admin_last_name"
+            style="@style/settings_textView_style"/>
+        <EditText
+            android:id="@+id/settings_lastname"
+            style="@style/settings_textView_style"
+            android:hint="@string/first_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="@string/default_hours"
+            style="@style/settings_textView_style"/>
+        <Spinner
+            android:id="@+id/settings_default_hours"
+            style="@style/settings_textView_style"
+            android:entries="@string/default_hours"
+            />
+    </LinearLayout>
+    <TextView
+        style="@style/settings_textView_style"
+        android:layout_marginTop="0dp"
+        android:text="@string/this_is_the_default_setting_that_assigns_the_hour_amount_for_when_an_employee_forgets_to_clock_out"/>
+
+    </LinearLayout>
+</ScrollView>

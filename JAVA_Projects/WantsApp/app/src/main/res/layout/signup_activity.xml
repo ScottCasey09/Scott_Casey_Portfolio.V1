@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/first_name"
+        android:id="@+id/firstname"/>
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/last_name"
+        android:id="@+id/lastname"/>
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/phone_number"
+        android:id="@+id/phoneNumber"
+        android:inputType="phone"/>
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/username"
+        android:id="@+id/username"/>
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailAddress"/>
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/confirm_email_address"
+        android:inputType="textEmailAddress"
+        android:id="@+id/confirm_email"/>
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/password"
+        android:id="@+id/password"
+        android:inputType="textPassword"/>
+    <EditText
+        style="@style/logon_editText"
+        android:hint="@string/confirm_password_8_12"
+        android:id="@+id/confirm_password"
+        android:inputType="textPassword"/>
+
+    <Button
+        style="@style/login_button"
+        android:id="@+id/signup_button_signup_activity"
+        android:text="@string/sign_up"
+        android:textAlignment="center"
+        android:background="@drawable/buttonshape_signup"
+        />
+
+</LinearLayout>

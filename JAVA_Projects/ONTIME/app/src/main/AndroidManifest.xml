@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fullsail.caseyscott.ontime">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <permission
+        android:name="com.anchit.locationapi.maps.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ontime_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ontime_app_round_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+        <activity android:name=".activities.LandingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.android.caseyscott.ontime.LANDING" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".activities.AccountSettingsActivity"
+            android:label="@string/hrs_totals"
+            android:parentActivityName=".activities.MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".activities.MainActivity">
+
+        </meta-data>
+        <intent-filter>
+            <action android:name="com.android.caseyscott.ontime.SETTINGS"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+        </activity>
+        <activity android:name=".activities.AccountSettingsActivityTablet"
+            android:label="@string/hrs_totals"
+            android:parentActivityName=".activities.ForecastActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.ForecastActivity">
+
+            </meta-data>
+            <intent-filter>
+                <action android:name="com.android.caseyscott.ontime.SETTINGS_TABLET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="com.android.caseyscott.ontime.MAIN_PAGE_VIEWER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.HoursTotalActivityTablet"
+        android:label="@string/hrs_totals"
+        android:parentActivityName=".activities.ForecastActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".activities.ForecastActivity">
+
+        </meta-data>
+        <intent-filter>
+            <action android:name="com.android.fullsail.caseyscott.ontime.ACTION_HOURS_TABLET"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+    </activity>
+        <activity android:name=".activities.ResetPasswordActivity"
+            android:label="@string/hrs_totals"
+            android:parentActivityName=".activities.LandingActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.LandingActivity">
+
+            </meta-data>
+            <intent-filter>
+                <action android:name="com.android.fullsail.caseyscott.ontime.ACTION_PASSWORD_RESET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.HoursTotalsActivity"
+            android:label="@string/hrs_totals"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity">
+
+            </meta-data>
+            <intent-filter>
+                <action android:name="com.android.fullsail.caseyscott.ontime.ACTION_HOURS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ForecastActivity">
+            <intent-filter>
+                <action android:name="com.android.fullsail.caseyscott.ontime.ACTION_FORECAST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CreateAccountActivity"
+            android:label="@string/create_account"
+            android:parentActivityName=".activities.LandingActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.LandingActivity">
+
+            </meta-data>
+
+            <intent-filter>
+                <action android:name="com.android.caseyscott.ontime.ACTION_CREATE_ACCOUNT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.EmployeeViewMapActivity"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity">
+
+            </meta-data>
+            <intent-filter>
+                <action android:name="com.android.fullsail.caseyscott.ontime.ACTION_EMPLOYEE_INFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>

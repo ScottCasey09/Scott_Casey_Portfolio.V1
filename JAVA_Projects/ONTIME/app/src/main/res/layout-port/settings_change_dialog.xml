@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="@string/old_values"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="@string/new_values"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/email_old"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/email_new"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/password_old"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/password_new"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/firstname_old"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/firstname_new"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/lastname_old"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/lastname_new"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/hours_old"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/hours_new"
+            android:layout_margin="8dp"
+            style="@style/settings_textView_style"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_margin="8dp"
+            style="@style/ButtonBorder.Accent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:text="@string/cancel"
+            android:textColor="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/commit"
+            android:layout_margin="8dp"
+            android:layout_height="54dp"
+            android:layout_width="0dp"
+            android:theme="@style/AppTheme.Button"
+            android:gravity="center"
+            android:textColor="@color/colorPinkishWhite"
+            android:text="@string/commit"
+            android:layout_weight="1"/>
+    </android.support.v7.widget.ButtonBarLayout>
+
+
+</LinearLayout>
